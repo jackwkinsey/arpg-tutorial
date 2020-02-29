@@ -14,7 +14,7 @@ if (!global.gamePaused) {
 	script_execute(state);
 	
 	// For testing message boxes
-	if (keyAttack) {
-		instance_create_layer(0, 0, layer, oText);
-	}
+	//if (keyAttack) {
+	//	instance_create_layer(0, 0, layer, oText);
+	//}
 }

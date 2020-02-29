@@ -1,4 +1,3 @@
-global.gamePaused = true;
 x1 = RESOLUTION_WIDTH * 0.5;
 y1 = RESOLUTION_HEIGHT - 70;
 x2 = RESOLUTION_WIDTH * 0.5;
@@ -7,5 +6,3 @@ x1Target = 0;
 x2Target = RESOLUTION_WIDTH;
 lerpProgress = 0;
 textProgress = 0;
-message = "DEFAULT MESSAGE TEXT";
-background = 0;

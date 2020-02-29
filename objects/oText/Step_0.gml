@@ -10,8 +10,16 @@ x2 = lerp(x2, x2Target, lerpProgress);
 
 if (keyboard_check_pressed(vk_space)) {
 	if (messageDisplayed) {
-		global.gamePaused = false;
 		instance_destroy();
+		if (instance_exists(oTextQueued)) {
+			with (oTextQueued) {
+				ticket--;
+			}
+		} else {
+			with (oPlayer) {
+				state = lastState;
+			}
+		}
 	} else if (messageStarted) {
 		textProgress = messageLength;
 	}

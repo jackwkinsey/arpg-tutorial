@@ -12,9 +12,6 @@ isMoving = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0);
 
 if (!global.gamePaused) {
 	script_execute(state);
-	
-	// For testing message boxes
-	//if (keyAttack) {
-	//	instance_create_layer(0, 0, layer, oText);
-	//}
 }
+
+depth = -bbox_bottom;

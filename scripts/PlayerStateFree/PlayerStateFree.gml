@@ -49,7 +49,7 @@ if (keyActivate) {
 		if (activate.entityNPC) {
 			with (activate) {
 				direction = point_direction(x, y, other.x, other.y);
-				image_index = CARDINAL_DIRECTION;
+				image_index = CARDINAL_DIRECTION_4;
 			}
 		}
 	}

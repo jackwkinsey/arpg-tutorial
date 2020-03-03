@@ -16,7 +16,7 @@ if (argument_count == 3) {
 // Update Sprite
 var totalFrames = sprite_get_number(sprite_index) / 4;
 
-image_index = localFrame + (CARDINAL_DIRECTION * totalFrames);
+image_index = localFrame + (CARDINAL_DIRECTION_4 * totalFrames);
 
 if (loop) {
 	localFrame += sprite_get_speed(sprite_index) / FRAME_RATE;

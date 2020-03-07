@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "7f48b4b0-fa99-4ac2-9716-3b43fd14b31b",
+            "Value": {
+                "id": "d5e11151-eca7-4181-82bb-65a07cc655cb",
+                "resourcePath": "objects\\oQuestNPC\\oQuestNPC.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8279fd7c-3380-4e45-a96f-d8073d50fab1",
             "Value": {
                 "id": "ee0e68ed-6d81-4ff1-90d7-fd336ac0f6a7",
@@ -356,6 +364,14 @@
                 "id": "beadc65b-ce37-4a75-8232-be7b4f43c64b",
                 "resourcePath": "objects\\oSignpost\\oSignpost.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c8173b2e-f24e-4818-9f4c-418b53bb61a2",
+            "Value": {
+                "id": "90d4d197-f04c-4f99-aa40-9bf151b9c640",
+                "resourcePath": "sprites\\sQuestie\\sQuestie.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
